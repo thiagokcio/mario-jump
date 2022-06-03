@@ -18,6 +18,9 @@
   position: absolute;
   bottom: 0;
   width: 80px;
+  right: -80px;
+}
+.pipe-animate {
   animation: pipe-animation 1.2s infinite linear;
 }
 
@@ -41,7 +44,16 @@
 .instructions {
   margin: 20px auto;
   text-align: center;
-  
+}
+
+.start-button {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.game-over {
+  margin-top: 300px;
+  text-align: center;
 }
 
 @keyframes jump {
